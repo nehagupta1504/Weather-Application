@@ -1,7 +1,6 @@
-import "./App.css";
-
+import Wheather from "./component/wheather/weather";
 function App() {
-  return <div></div>;
+  return <Wheather />;
 }
 
 export default App;
