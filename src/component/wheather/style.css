@@ -205,7 +205,9 @@ body {
     width: 100%;
   }
   .wrap {
-    width: fit-content;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .widget {
     width: 90%;
