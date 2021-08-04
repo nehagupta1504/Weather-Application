@@ -198,3 +198,38 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 } */
+@media only screen and (max-width: 600px) {
+  body {
+    min-height: 870px;
+    height: max-content;
+    width: 100%;
+  }
+  .wrap {
+    width: fit-content;
+  }
+  .widget {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .widget .weatherInfo {
+    flex: 1 1 100%;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+  }
+  .widget .date {
+    flex: 0 0 100%;
+  }
+  .widget .extra-temp {
+    display: flex;
+    flex-direction: column;
+  }
+  .two-sided-section {
+    padding: 10% 6%;
+  }
+  .widget .extra-temp .extra-info-leftside {
+    text-align: center;
+  }
+}
