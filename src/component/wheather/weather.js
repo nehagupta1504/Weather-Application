@@ -10,7 +10,7 @@ const Wheather = () => {
   const [tempInfo, settempInfo] = useState({});
   const getWheatherInfo = async () => {
     try {
-      let url = `http://api.openweathermap.org/data/2.5/weather?q=${searchValue}&units=metric&appid=935847ca520235df50f05ab2271da871`;
+      let url = `https://api.openweathermap.org/data/2.5/weather?q=${searchValue}&units=metric&appid=935847ca520235df50f05ab2271da871`;
       const res = await fetch(url);
       const data = await res.json();
 
