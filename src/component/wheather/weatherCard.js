@@ -17,22 +17,22 @@ const WeatherCard = ({ tempInfo }) => {
   let timeStr = `${date.getHours()}:${date.getMinutes()}`;
   useEffect(() => {
     if (weatherMood) {
-      switch (weatherMood) {
-        case "Clouds":
+      switch (weatherMood.toLowerCase()) {
+        case "clouds":
           setweatherState("wi-day-cloudy");
           break;
-        case "Haze":
+        case "haze":
           setweatherState("wi-fog");
           break;
 
-        case "Clear":
-          setweatherState("wi-day-Sunny");
+        case "clear":
+          setweatherState("wi-day-sunny");
           break;
-        case "Mist":
+        case "mist":
           setweatherState("wi-dust");
           break;
         default:
-          setweatherState("wi-day-Sunny");
+          setweatherState("wi-day-sunny");
           break;
       }
     }
