@@ -28,7 +28,9 @@ body {
   display: grid;
   place-items: center;
 
-  background-image: url("https://i.pinimg.com/originals/b6/7f/61/b67f61a1364ea22a050d701c7bf7858f.gif");
+  /* background-image: url("https://i.pinimg.com/originals/b6/7f/61/b67f61a1364ea22a050d701c7bf7858f.gif"); */
+  background-image: url("../../assets/background_gif.gif");
+
   background-repeat: no-repeat;
   background-size: cover;
 }
